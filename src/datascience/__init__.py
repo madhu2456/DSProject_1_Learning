@@ -1,6 +1,9 @@
 import os
 import sys
 import logging
+from dotenv import load_dotenv
+
+load_dotenv()
 
 logging_str = "[%(asctime)s: %(levelname)s: %(module)s: %(message)s]"
 
